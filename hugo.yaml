@@ -43,8 +43,8 @@ params:
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
   homeInfoParams:
-    Title: "Hello"
-    Content: Welcome to my blog
+    Title: "Welcome!"
+    Content: "My blog that I occasionally post on, featuring mostly Linux and tech related posts"
   socialIcons:
     - name: bsky
       url: "https://bsky.app/profile/thathollowtgirl.bsky.social"
