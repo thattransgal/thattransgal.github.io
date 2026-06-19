@@ -36,6 +36,8 @@ params:
    hideSummary: false
    showtoc: false
    tocopen: false
+     mainSections:
+       - posts
 homeInfoParams:
     Title: "Hello"
     Content: Welcome to my blog
