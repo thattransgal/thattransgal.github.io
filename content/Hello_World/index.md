@@ -32,6 +32,6 @@ editPost:
 ---
 
 ```bash
-**echo "Hello World"**
+echo "Hello World"
 ```
 My name is Ethan aka ThatTransGal on the net, I am a hobbiest programer and Linux user. This is an introductory post on my new blog, due to my old one having led me to burn-out. I hope to post here as often as I can. This blog will mostly focus on Linux, hobbiest programing, and other tech things I find interesting. This blog is hosted on Github Pages and the source code can be found at [github.com/thattransgal/thattransgal.github.io](https://github.com/thattransgal/thattransgal.github.io)
