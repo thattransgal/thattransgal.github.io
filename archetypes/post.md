@@ -2,8 +2,8 @@
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 draft: true
 date: '{{ .Date }}'
-tags: ["tag1","tag2","tag3"
-author: ThatTransGal
+tags: ["tag1","tag2","tag3"]
+author: "ThatTransGal"
 description: "Lorum Ipsum"
 showToc: true
 TocOpen: false

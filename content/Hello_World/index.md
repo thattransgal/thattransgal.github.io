@@ -2,8 +2,8 @@
 title: 'Hello World'
 draft: false
 date: '2026-06-19T15:33:30Z'
-tags: ["Hello World","First Post","Welcome"
-author: ThatTransGal
+tags: ["Hello World","First Post","Welcome"]
+author: "ThatTransGal"
 description: "The first post of many..."
 showToc: true
 TocOpen: false
