@@ -12,41 +12,45 @@ minify:
   disableXML: true
   minifyOutput: true
 
-
 params:
-   title: "ThatTransGal's Blog"
-   description: "My blog that I occasionally post on, featuring mostly Linux and tech related posts"
-   keywords: [Blog, Website, Tech, Personal]
-   author: ThatTransGal
-   DateFormat: "January 2, 2006"
-   defaultTheme: dark
-   disableThemeToggle: true
-   ShowReadingTime: true
-   ShowShareButton: true
-   ShowPostNavLinks: true
-   ShowWordCount: true
-   ShowCodeCopyButtons: true
-   UseHugoToc: true
-   ShowRssButtonInSectionTermList: true
-   ShowBreadCrumbs: true
-   disableSpecial1stPost: true
-   disableScrollToTop: false
-   comments: false
-   hidemeta: false
-   hideSummary: false
-   showtoc: false
-   tocopen: false
-     mainSections:
-       - posts
-homeInfoParams:
+  title: "ThatTransGal's Blog"
+  description: "My blog that I occasionally post on, featuring mostly Linux and tech related posts"
+  keywords: [Blog, Website, Tech, Personal]
+  author: ThatTransGal
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowShareButton: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  UseHugoToc: true
+  ShowRssButtonInSectionTermList: true
+  ShowBreadCrumbs: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  mainSections:
+    - posts
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+  homeInfoParams:
     Title: "Hello"
     Content: Welcome to my blog
+  socialIcons:
+    - name: bsky
+      url: "https://bsky.app/profile/thathollowtgirl.bsky.social"
+    - name: github
+      url: "https://github.com/thattransgal"
 
-socialIcons:
-  - name: bsky
-    url: "https://bsky.app/profile/thathollowtgirl.bsky.social"
-  - name: github
-    url: "https://github.com/thattransgal"
 menu:
   main:
     - identifier: categories
@@ -61,6 +65,7 @@ menu:
       name: thattransgal.github.io
       url: https://thattransgal.github.io
       weight: 30
+
 caches:
   images:
     dir: :cacheDir/images
