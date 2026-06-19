@@ -1,0 +1,61 @@
+baseURL: https://thattransgal.github.io
+locale: en-us
+title: "ThatTransGal's Blog"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+params:
+   title: "ThatTransGal's Blog"
+   description: "My blog that I occasionally post on, featuring mostly Linux and tech related posts"
+   keywords: [Blog, Website, Tech, Personal]
+   author: ThatTransGal
+   DateFormat: "January 2, 2006"
+   defaultTheme: dark
+   disableThemeToggle: true
+   ShowReadingTime: true
+   ShowShareButton: true
+   ShowPostNavLinks: true
+   ShowWordCount: true
+   ShowCodeCopyButtons: true
+   UseHugoToc: true
+   ShowRssButtonInSectionTermList: true
+   ShowBreadCrumbs: true
+   disableSpecial1stPost: true
+   disableScrollToTop: false
+   comments: false
+   hidemeta: false
+   hideSummary: false
+   showtoc: false
+   tocopen: false
+homeInfoParams:
+    Title: "Hello"
+    Content: Welcome to my blog
+
+socialIcons:
+  - name: bsky
+    url: "https://bsky.app/profile/thathollowtgirl.bsky.social"
+  - name: github
+    url: "https://github.com/thattransgal"
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
