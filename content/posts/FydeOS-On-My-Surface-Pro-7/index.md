@@ -2,7 +2,7 @@
 title: 'FydeOS on My Surface Pro 7'
 draft: true
 date: '2026-06-19T16:28:39Z'
-tags: ["Linux","FydeOS","ChromeOS","de-google","Linux Surface Project]
+tags: ["Linux","FydeOS","ChromeOS","de-google","Linux Surface Project"]
 author: "ThatTransGal"
 description: "My experiance of using FydeOS on my Microsoft Surface Pro 7"
 showToc: true
@@ -21,7 +21,7 @@ hideSummary: false
 cover:
     image: "images/fydeos_banner.png" # path to image
     alt: "The FydeOS logo with a red backgroud"
-    caption: "***Image owned by FydeOS***" # caption under image, leave empty for no caption
+    caption: "" # caption under image, leave empty for no caption
     relative: false
     hidden: false
 editPost:
